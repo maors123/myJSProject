@@ -1,0 +1,31 @@
+html,
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(190, 223, 244);
+      
+}
+
+main {
+  flex-grow: 1;
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  margin: 0 auto; /* Centers the main element horizontally */
+}
+
+header,
+footer {
+  padding: 30px;
+  text-align: center;
+  /* background-color: antiquewhite; */
+}
+li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+}
